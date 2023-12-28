@@ -1,0 +1,298 @@
+% Welcome to the simple Undergraduate Complexity Research CV-resume template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0.2in}
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeadingLong}[4]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        \textbf{#2} \\
+        #3 \\
+        #4 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeading}[3]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        #2 \\
+        #3 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    {\LARGE Abdul Qadir} \\ \vspace{0pt}
+    \begin{multicols}{2}
+    \begin{flushleft}
+    \large{Lahore, 54782} \\
+    \large{Punjab, Pakistan} \\
+    \href{tel:+923028445808}{+92 309 5544409} \\
+    \end{flushleft}
+    
+    \begin{flushright}
+% this could be LinkedIn, GitHub, or a personal website or social media account (if used for professional purposes)
+
+    \large{Github}: \href{https://github.com/0xnull007}{0xnull007} \\
+    \large{LinkedIn}: \href{https://www.linkedin.com/in/0xnull007}{0xnull007} \\
+    \large{tryhackme}: \href{https://tryhackme.com/p/0xnull007}{0xnull007} \\
+    % \large{Website}: \href{http://0xnull007.tech}{0xnull007.tech} \\
+    \large{Email}: \href{mailto:0xnull007@proton.me}{0xnull007@proton.me}
+    
+    \end{flushright}
+    \end{multicols}
+\end{center}
+
+% -----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+My research interests lie in the intersection of computer security and low-level systems. I am interested in the security vulnerabilities posed by systems and language design flaws, and how they can be exploited.
+
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for GPA, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {PUCIT - University of the Punjab}{December, 2020 -- Present}
+        {Bachelor of Science - Information Technology}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Expected graduation: July 2024}
+            \resumeItem{GPA: 3.12/4.0}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Govt. Degree College for Boys Sharaqpur Sharif}{2018 - 2020}
+        {FSc Pre-Engineering}{Sharaqpur Sharif, Punjab, Pakistan}
+        \vspace*{1pt}    
+
+    \resumeSubheading
+        {Govt. Pilot Secondary School}{2015 - 2017}
+        {Matriculation}{Sharaqpur Sharif, Punjab, Pakistan}
+
+\resumeSubHeadingListEnd
+
+
+% %-----------RESEARCH EXPERIENCE-----------
+% \section{Research Experience}
+% % it is not expected that applicants have research experience but this section can include experience gained in a laboratory course, shadowing experiences, or group or independent research projects
+% \resumeSubHeadingListStart
+
+% \researchHeading
+%         {A Novel Approach to Applying x86-64 Exploitation Techniques on WebAssembly Binaries}
+%         {July, 2022 -- Present}
+%         {PUCIT - University of the Punjab}
+%         \resumeItemListStart
+%             \small\resumeItem{Supervisor: Dr. Muhammad Arif Butt}
+%             \resumeItem{Formulated the idea and initiated the research project}
+%             \resumeItem{Discovered differences between WebAssembly Modules built from the same source}
+%             \resumeItem{Worked on problems related to fuzzing WebAssembly binaries}
+%             \resumeItem{Working on identifying ways to reuse x86-64 exploitation techniques on WebAssembly binaries}
+%         \resumeItemListEnd
+
+% \researchHeadingLong
+%         {Salient Features of the MIPS32/64 Architecture and A Handy Guideline to its Assembly}
+%         {Programming}
+%         {November, 2022 -- Present}
+%         {PUCIT - University of the Punjab}
+%         \resumeItemListStart
+%             \small\resumeItem{Supervisor: Dr. Muhammad Arif Butt}
+%             \resumeItem{Verified the correctness of the research}
+%             \resumeItem{Worked on journal formats}
+%             \resumeItem{Prepared the paper for submission}
+%             \resumeItem{Verified references}
+%         \resumeItemListEnd
+
+% \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Teaching Assistant (Operating System)}{August, 2023 -- December 2023}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \small\resumeItem{Designed material and coursework for the newly introduced lab component of the subject}
+            \resumeItem{Designed exam papers for the lab}
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+
+    \resumeSubheading
+        {Teaching Assistant (Data Structures \& Algorithms)}{August, 2023 -- December 2023}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+
+\resumeSubheading
+        {Teaching Assistant (Object Oriented Programming)}{January, 2023 -- May 2023}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+          
+\resumeSubHeadingListEnd
+
+%-----------Projects-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    
+        \resumeSubheading
+            {Linux Kernel Exploitation \& Docker Escape (Continue..)}{C, Python, x86-64 Assembly}
+            {\href{https://github.com/0xnull007/linux_kernel_exploitation}{https://github.com/0xnull007/linux-kernel-exploitation}}{}
+            \resumeItemListStart
+                \small\resumeItem{Includes all exploits that I have written during learning binary \& kernel exploitation.}
+            \resumeItemListEnd
+        
+        \resumeSubheading
+            {Real-time Object Detection with YOLO v4: Cat and Dog Recognition}{Python}
+            {\href{https://github.com/ideaRunner/yolo-pet}{https://github.com/ideaRunner/yolo-pet}}{}
+            \resumeItemListStart
+                \small\resumeItem{Developed and trained a YOLO v4-based machine learning model for real-time detection of cats and dogs in both images and videos}
+            \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EXTRACURRICULARS & VOLUNTEERING-----------
+\section{Extracurriculars \& Volunteering} 
+% If you have been involved in extracurricular activities or volunteer work, you can list them here.
+\resumeSubHeadingListStart
+    
+    \resumeSubheading
+        {Lead}{PUCIT - University of the Punjab}
+        {Cyber@PU - Unofficial PUCIT Cyber Security Community}{2023 -- Present}
+        \resumeItemListStart
+            \small\resumeItem{Faculty Contact: Dr. Muhammad Arif Butt}
+            \resumeItem{Work with GDSC PUCIT to organize workshops and seminars}
+        \resumeItemListEnd    
+
+    \resumeSubheading
+        {Cyber Security Lead}{PUCIT - University of the Punjab}
+        {Google Developer Student Clubs}{2023 -- Present}
+        \resumeItemListStart
+            \small\resumeItem{Conducted workshops on Cyber Security and low-level systems}
+            \resumeItem{E.g. Memory Corruption and Buffer Overflows.} 
+            \resumeItem{GitHub Repo}\href{https://github.com/0xnull007/cybersec_workshop_1.0}{CyberSecWorkshop}
+            
+        \resumeItemListEnd    
+
+\resumeSubHeadingListEnd
+
+% %-----------AWARDS & HONORS-----------
+% \section{Awards \& Honors}
+% % This section can include academic achievements – things like scholarships, Dean's list, honors societies – as well as recognition in your community - community service, religious study, volunteerism, military service, or anything else. You can remove or add sections as needed.
+% \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%         {First Prize}{2022}
+%         {Bug Hunt - NaSCon FAST NUCES}{Islamabad, Pakistan}
+%         \resumeItemListStart
+%             \small\resumeItem{\href{https://pucit.edu.pk/achievements/\#:\~\:text\=development\%20first\%20position-\,Bug\%20hunt\%20first\%20position\,\-code\%20studio\%20second}{https://pucit.edu.pk/achievements/}}
+%             \resumeItem{Awarded to the team with the most exploited and documented bugs in the competition}
+%         \resumeItemListEnd
+
+%     \resumeSubheading
+%         {First To Solve}{2021}
+%         {International Collegiate Programming Contest (ICPC) Regionals}{Asia, Topi}
+%         \resumeItemListStart
+%             \small\resumeItem{\href{https://pucit.edu.pk/achievements-archives/}{https://pucit.edu.pk/achievements-archives/}}
+%             \resumeItem{Awarded to the first team to solve a problem}
+%         \resumeItemListEnd
+
+% \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Programming Languages}{: C, C++, Python, Java, x86-64 Assembly} \\
+     \textbf{Security}{: Binary Exploitation, Reverse Engineering}\\
+     \textbf{Tools}{: Ghidra, Radare Cutter, GDB, GNU/Make} \\
+     \textbf{OS}{: GNU/Linux, Windows + WSL} \\
+    }}
+ \end{itemize}
+
+% %-----------COURSES-----------
+% \section{Courses \& MOOCs}
+% % This section can include courses you have taken, or MOOCs you have completed. You can remove or add sections as needed.
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%     \normalsize{\item{
+%      \textbf{Malware Analysis}{: TryHackMe} \\
+%      \textbf{Incident Response and Forensics}{: TryHackMe}\\
+%      \textbf{Reverse Engineering 101}{: Malware Unicorn} \\
+%      \textbf{Introduction to CyberSecurity Tools \& Cyber Attacks}{: IBM + Coursera} \\
+%     }}
+%  \end{itemize}
+
+\end{document}
